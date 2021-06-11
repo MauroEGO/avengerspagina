@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Informacion</title>
+</head>
+<body>
+    <nav>
+        <a href='/avengers/index.html'> Inicio </a> 
+        <a href='/avengers/personasjes.html'> Personajes </a> 
+        <a href='/avengers/comics.html'> Comics </a> 
+        <a href='/avengers/informacion.html'> Solicitar Información </a>
+    </nav>
+    <h1>Información a ingresar</h1>
+    <form action="paginaderelleno.html">
+        <h2>Nombre y apellido</h2>
+        <label>Nombre: <input name="name"></label>
+        <label>Apellido: <input name="lastname"></label>
+        <button type="button">Aceptar</button><br>
+
+        <h2>Contactos</h2>
+        <label>Gmail: <input type="email" name="email"></label>
+        <label>Tel.: <input type="tel" name="tel"></label>
+        <button type="button">Aceptar</button><br>
+
+        <h2>Escribir</h2>
+        <textarea cols="60" rows="5"></textarea>
+
+        <br><br><button type="reset">Reset</button>
+        <button type="submit">Enviar respuestas</button>
+    </form>
+</body>
+</html>
